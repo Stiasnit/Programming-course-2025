@@ -9,3 +9,5 @@ Questions that will be answered:
 
 Data included:
   5 million pp collisions at √s = 14 TeV
+
+This code requires the installation of pandas https://pypi.org/project/pandas/ 
