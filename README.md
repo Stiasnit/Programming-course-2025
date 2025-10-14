@@ -3,7 +3,8 @@ Purpose of code:
   Simulating particle production expected by a specific model commonly used in particle physics using Python 3.
   This code requires the installation of pandas https://pypi.org/project/pandas/.
 
-Questions that will be answered:
+Questions that will be answered:  
+
   1)What are the average counts of each particle species and their statistical uncertainties?  
   
   2)Is there any asymmetry between the particle and the anti-particle?  
