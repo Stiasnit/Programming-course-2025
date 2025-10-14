@@ -22,21 +22,26 @@ Data included:
 Results of this code: 
 // added new results for all 11 files + added new event counter which prevents events between files from merging that caused 'per event' calculations to be off by several magnitudes 
 // also made it so that code now correctly averages across all events instead of each event with the particle inside of it
+// converted to a markdown table for easier reading
 
-   Particle Type  Total number of particles  Average particles per event        Std  Statistical Uncertainty
-0         anti-p                  5468374.0                     1.185008   1.510055                 0.000675
-1         anti-Λ                  1254658.0                     0.271887   0.574873                 0.000257
-2              p                  5578528.0                     1.208878   1.539350                 0.000688
-3             Κ+                 11586991.0                     2.510924   2.783082                 0.001245
-4             Κ-                 11560741.0                     2.505236   2.782604                 0.001244
-5              Λ                  1277278.0                     0.276789   0.582206                 0.000260
-6             Ξ+                   180093.0                     0.039027   0.200699                 0.000090
-7             Ξ-                   182130.0                     0.039468   0.201785                 0.000090
-8             Ω+                     5318.0                     0.001152   0.033966                 0.000015
-9             Ω-                     5482.0                     0.001188   0.034522                 0.000015
-10            π+                 92125884.0                    19.963864  18.188553                 0.008134
-11            π-                 91976878.0                    19.931574  18.171601                 0.008127
+| Particle Type   |   Total number of particles |   Average particles per event |        Std |   Statistical Uncertainty |
+|:----------------|----------------------------:|------------------------------:|-----------:|--------------------------:|
+| anti-p          |                 5.46837e+06 |                    1.18501    |  1.51006   |               0.000675317 |
+| anti-Λ          |                 1.25466e+06 |                    0.271887   |  0.574873  |               0.000257091 |
+| p               |                 5.57853e+06 |                    1.20888    |  1.53935   |               0.000688418 |
+| Κ+              |                 1.1587e+07  |                    2.51092    |  2.78308   |               0.00124463  |
+| Κ-              |                 1.15607e+07 |                    2.50524    |  2.7826    |               0.00124442  |
+| Λ               |                 1.27728e+06 |                    0.276789   |  0.582206  |               0.00026037  |
+| Ξ+              |            180093           |                    0.0390265  |  0.200699  |               8.97555e-05 |
+| Ξ-              |            182130           |                    0.0394679  |  0.201785  |               9.02412e-05 |
+| Ω+              |              5318           |                    0.00115242 |  0.0339661 |               1.51901e-05 |
+| Ω-              |              5482           |                    0.00118796 |  0.0345217 |               1.54386e-05 |
+| π+              |                 9.21259e+07 |                   19.9639     | 18.1886    |               0.00813417  |
+| π-              |                 9.19769e+07 |                   19.9316     | 18.1716    |               0.00812659  |
+
+
 
 This code searches for momentum of <200 to remove extreme outliers for better calculations
+Below is the relevant graph plotting asymmetry and momentum
 
 <img width="1536" height="760" alt="Graphs" src="https://github.com/user-attachments/assets/9c0fc014-2180-4107-884e-1eeff7d19b3a" />
