@@ -20,6 +20,7 @@ Data included:
   - Number of events each particle appeared
   - Average number of each particle per event
   - Statisitcal Uncertainity and Standard Deviation of particles per event
+  - Aymmetry of each particle pair as calculated with N1-N2/N1+N2
   - Plots of asymmetry as a function of each particle's momentum
 
 
