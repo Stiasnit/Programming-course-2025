@@ -19,10 +19,13 @@ Data included:
   - Plots of asymmetry as a function of each particle's momentum 
 
     
-Results of this code: 
-// added new results for all 11 files + added new event counter which prevents events between files from merging that caused 'per event' calculations to be off by several magnitudes 
-// also made it so that code now correctly averages across all events instead of each event with the particle inside of it
-// converted to a markdown table for easier reading
+Results of this code:  
+// added new results for all 11 files + added new event counter which prevents events between files from merging that caused 'per event' calculations to be off by several magnitudes  
+
+// also made it so that code now correctly averages across all events instead of each event with the particle inside of it  
+
+// converted to a markdown table for easier reading  
+
 
 | Particle Type   |   Total number of particles |   Average particles per event |        Std |   Statistical Uncertainty |
 |:----------------|----------------------------:|------------------------------:|-----------:|--------------------------:|
