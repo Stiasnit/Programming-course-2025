@@ -23,7 +23,6 @@ Results of this code:
 // added new results for all 11 files + added new event counter which prevents events between files from merging that caused 'per event' calculations to be off by several magnitudes 
 // also made it so that code now correctly averages across all events instead of each event with the particle inside of it
 
-      ID Particle Type  Average particles per event  Number of events        Std  Statistical Uncertainty
    Particle Type  Total number of particles  Average particles per event        Std  Statistical Uncertainty
 0         anti-p                  5468374.0                     1.185008   1.510055                 0.000675
 1         anti-Λ                  1254658.0                     0.271887   0.574873                 0.000257
