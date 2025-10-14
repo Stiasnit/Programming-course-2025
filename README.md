@@ -21,10 +21,7 @@ Data included:
   - Statisitcal Uncertainity and Standard Deviation of particles per event
   - Plots of asymmetry as a function of each particle's momentum
 
-Discussion:
 
-
-    
 Results of this code:  
 // added new results for all 11 files + added new event counter which prevents events between files from merging that caused 'per event' calculations to be off by several magnitudes  
 
